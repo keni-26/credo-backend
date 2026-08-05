@@ -22,8 +22,7 @@ public class Day5 {
 
         double side = 6;
 
-        double pentagonArea = (5 * side * side) /
-                (4 * Math.tan(Math.PI / 5));
+        double pentagonArea = (5 * side * side) / (4 * Math.tan(Math.PI / 5));
 
         System.out.println("Area = " + pentagonArea);
 
@@ -36,8 +35,7 @@ public class Day5 {
 
         side = 5;
 
-        double hexagonArea =
-                ((3 * Math.sqrt(3)) / 2) * side * side;
+        double hexagonArea = ((3 * Math.sqrt(3)) / 2) * side * side;
 
         System.out.println("Area = " + hexagonArea);
 
@@ -50,9 +48,7 @@ public class Day5 {
 
         side = 5;
 
-        double heptagonArea =
-                (7 * side * side) /
-                (4 * Math.tan(Math.PI / 7));
+        double heptagonArea = (7 * side * side) / (4 * Math.tan(Math.PI / 7));
 
         System.out.println("Area = " + heptagonArea);
 
@@ -65,8 +61,7 @@ public class Day5 {
 
         side = 5;
 
-        double octagonArea =
-                2 * (1 + Math.sqrt(2)) * side * side;
+        double octagonArea = 2 * (1 + Math.sqrt(2)) * side * side;
 
         System.out.println("Area = " + octagonArea);
 
@@ -81,8 +76,7 @@ public class Day5 {
         double base2 = 8;
         double height = 6;
 
-        double trapezoidArea =
-                ((base1 + base2) * height) / 2;
+        double trapezoidArea = ((base1 + base2) * height) / 2;
 
         System.out.println("Area = " + trapezoidArea);
 
@@ -95,8 +89,7 @@ public class Day5 {
 
         double radius = 5;
 
-        double sphereVolume =
-                (4.0 / 3) * Math.PI * Math.pow(radius, 3);
+        double sphereVolume = (4.0 / 3) * Math.PI * Math.pow(radius, 3);
 
         System.out.println("Volume = " + sphereVolume);
 
@@ -106,8 +99,7 @@ public class Day5 {
         // 8. Volume of Hemisphere
         System.out.println("Volume of Hemisphere");
 
-        double hemisphereVolume =
-                (2.0 / 3) * Math.PI * Math.pow(radius, 3);
+        double hemisphereVolume = (2.0 / 3) * Math.PI * Math.pow(radius, 3);
 
         System.out.println("Volume = " + hemisphereVolume);
 
@@ -121,8 +113,7 @@ public class Day5 {
         radius = 4;
         height = 8;
 
-        double coneVolume =
-                (Math.PI * radius * radius * height) / 3;
+        double coneVolume = (Math.PI * radius * radius * height) / 3;
 
         System.out.println("Volume = " + coneVolume);
 
@@ -137,8 +128,7 @@ public class Day5 {
         double breadth = 5;
         height = 8;
 
-        double cuboidVolume =
-                length * breadth * height;
+        double cuboidVolume = length * breadth * height;
 
         System.out.println("Volume = " + cuboidVolume);
 
@@ -151,8 +141,7 @@ public class Day5 {
 
         side = 5;
 
-        double triangleArea =
-                (Math.sqrt(3) * side * side) / 4;
+        double triangleArea = (Math.sqrt(3) * side * side) / 4;
 
         System.out.println("Area = " + triangleArea);
 
@@ -165,8 +154,7 @@ public class Day5 {
 
         radius = 5;
 
-        double circleArea =
-                Math.PI * radius * radius;
+        double circleArea = Math.PI * radius * radius;
 
         System.out.println("Area = " + circleArea);
 
@@ -205,32 +193,23 @@ public class Day5 {
 
         System.out.println("Trigonometric Methods");
 
-        System.out.println("Sin 30 = " +
-                Math.sin(Math.toRadians(30)));
+        System.out.println("Sin 30 = " + Math.sin(Math.toRadians(30)));
 
-        System.out.println("Cos 60 = " +
-                Math.cos(Math.toRadians(60)));
+        System.out.println("Cos 60 = " + Math.cos(Math.toRadians(60)));
 
-        System.out.println("Tan 45 = " +
-                Math.tan(Math.toRadians(45)));
+        System.out.println("Tan 45 = " + Math.tan(Math.toRadians(45)));
 
-        System.out.println("Radians = " +
-                Math.toRadians(90));
+        System.out.println("Radians = " + Math.toRadians(90));
 
-        System.out.println("Degrees = " +
-                Math.toDegrees(Math.PI));
+        System.out.println("Degrees = " + Math.toDegrees(Math.PI));
 
-        System.out.println("Exp = " +
-                Math.exp(2));
+        System.out.println("Exp = " + Math.exp(2));
 
-        System.out.println("Log = " +
-                Math.log(10));
+        System.out.println("Log = " + Math.log(10));
 
-        System.out.println("Log10 = " +
-                Math.log10(100));
+        System.out.println("Log10 = " + Math.log10(100));
 
-        System.out.println("Signum = " +
-                Math.signum(-25));
+        System.out.println("Signum = " + Math.signum(-25));
 
         System.out.println("-----------------------------");
 
