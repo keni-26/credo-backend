@@ -1,9 +1,9 @@
 class Loop {
     public static void main(String[] args) {
 
-        // -----------------------------------
+  
         // 1. Print numbers from 1 to 100 using for loop
-        // -----------------------------------
+
 
         System.out.println("Numbers from 1 to 100");
 
@@ -14,9 +14,8 @@ class Loop {
         System.out.println("-----------------------------");
 
 
-        // -----------------------------------
         // 2. Print numbers from 100 to 1 using while loop
-        // -----------------------------------
+ 
 
         System.out.println("Numbers from 100 to 1");
 
@@ -30,9 +29,8 @@ class Loop {
         System.out.println("-----------------------------");
 
 
-        // -----------------------------------
         // 3. Print all even numbers between 1 and 100
-        // -----------------------------------
+
 
         System.out.println("Even numbers between 1 and 100");
 
@@ -46,9 +44,9 @@ class Loop {
         System.out.println("-----------------------------");
 
 
-        // -----------------------------------
+
         // 4. Print all odd numbers between 1 and 100
-        // -----------------------------------
+
 
         System.out.println("Odd numbers between 1 and 100");
 
@@ -62,9 +60,9 @@ class Loop {
         System.out.println("-----------------------------");
 
 
-        // -----------------------------------
+       
         // 5. Find the sum of first N natural numbers
-        // -----------------------------------
+      
 
         System.out.println("Sum of First N Natural Numbers");
 
@@ -81,10 +79,9 @@ class Loop {
         System.out.println("-----------------------------");
 
 
-        // -----------------------------------
+        
         // 6. Calculate factorial of a given number
-        // -----------------------------------
-
+    
         System.out.println("Factorial of a Number");
 
         int factorialNumber = 5;
@@ -100,9 +97,8 @@ class Loop {
         System.out.println("-----------------------------");
 
 
-        // -----------------------------------
         // 7. Reverse a given number
-        // -----------------------------------
+       
 
         System.out.println("Reverse a Number");
 
@@ -123,9 +119,9 @@ class Loop {
         System.out.println("-----------------------------");
 
 
-        // -----------------------------------
+      
         // 8. Check whether a number is palindrome
-        // -----------------------------------
+   
 
         System.out.println("Palindrome Number");
 
@@ -149,9 +145,9 @@ class Loop {
         System.out.println("-----------------------------");
 
 
-        // -----------------------------------
+        
         // 9. Count the number of digits in an integer
-        // -----------------------------------
+      
 
         System.out.println("Count Number of Digits");
 
@@ -171,9 +167,9 @@ class Loop {
         System.out.println("-----------------------------");
 
 
-        // -----------------------------------
+    
         // 10. Find the sum of digits of a number
-        // -----------------------------------
+        
 
         System.out.println("Sum of Digits");
 
@@ -194,9 +190,9 @@ class Loop {
         System.out.println("-----------------------------");
 
 
-        // -----------------------------------
+        
         // 11. Multiplication table
-        // -----------------------------------
+      
 
         System.out.println("Multiplication Table");
 
@@ -214,9 +210,9 @@ class Loop {
         System.out.println("-----------------------------");
 
 
-        // -----------------------------------
+       
         // 12. Fibonacci Series up to N terms
-        // -----------------------------------
+        
 
         System.out.println("Fibonacci Series");
 
@@ -238,9 +234,8 @@ class Loop {
         System.out.println("-----------------------------");
 
 
-        // -----------------------------------
         // 13. Check whether a number is prime
-        // -----------------------------------
+     
 
         System.out.println("Check Prime Number");
 
@@ -269,9 +264,8 @@ class Loop {
         System.out.println("-----------------------------");
 
 
-        // -----------------------------------
         // 14. Print all prime numbers between 1 and 100
-        // -----------------------------------
+
 
         System.out.println("Prime Numbers between 1 and 100");
 
