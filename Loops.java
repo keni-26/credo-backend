@@ -1,4 +1,4 @@
-class Day3 {
+class Loops {
     public static void main(String[] args) {
 
   

@@ -1,4 +1,4 @@
-public class Day7P1 {
+public class Recursion {
 
     // Recursive method
 

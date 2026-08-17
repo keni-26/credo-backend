@@ -1,4 +1,4 @@
-public class Day7 {
+public class MethodType {
 
     // 1. Without argument, without return type
 
