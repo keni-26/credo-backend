@@ -159,5 +159,46 @@ public class ArrayListExample {
         list2.clear();
 
         System.out.println("After clear(): " + list2);
+
+
+        // 16. Find the Sum of ArrayList Numbers
+
+        ArrayList<Integer> sumNumbers = new ArrayList<>();
+
+        sumNumbers.add(10);
+        sumNumbers.add(20);
+        sumNumbers.add(30);
+        sumNumbers.add(40);
+
+        int sum = 0;
+
+        for (int n : sumNumbers) {
+            sum = sum + n;
+            System.out.println("Step - " + sum);
+        }
+
+        System.out.println("Sum: " + sum);
+
+
+        // 17. Find the Largest Number
+
+        ArrayList<Integer> largestNumbers = new ArrayList<>();
+
+        largestNumbers.add(10);
+        largestNumbers.add(50);
+        largestNumbers.add(20);
+        largestNumbers.add(80);
+        largestNumbers.add(30);
+
+        int max = largestNumbers.get(0);
+
+        for (int n : largestNumbers) {
+            if (n > max) {
+                max = n;
+                System.out.println("Step - " + max);
+            }
+        }
+
+        System.out.println("Largest: " + max);
     }
 }
